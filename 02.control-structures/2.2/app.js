@@ -6,11 +6,11 @@
         let current = prompt ("please enter yet another number");
         if (current > min && current < max)
         {
-            alert (`${current}`);
+            console.log (`${current}`);
         }
     }
     else
     {
-        alert ("please check the message when you enter your second number");
+        console.log("please check the message when you enter your second number");
     }
 })();
