@@ -1,7 +1,7 @@
 (() => {
     let student = ["adca09", "Adrien B", "Angel", "Arnaud VA", "Denis L", "Druart Stacy", "Dylan Feys", "..."];
-    for (let elem of student)
+    for (let i = 0 ; i < student.length ; i++)
     {
-        console.log(student[elem]);
+        console.log(student[i]);
     }
 })();
