@@ -1,5 +1,5 @@
 (() => {
-    console.log(JSON.stringify(favSerie));
+    console.log(JSON.stringify(askTvSerie()));
 })();
 function askTvSerie(){
     let favSerie = {
