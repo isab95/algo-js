@@ -1,7 +1,7 @@
 (() => {
     let n = 1;
     let evenNumber = "";
-    let even Number2 = "";
+    let evenNumber2 = "";
     while (1 <= 100)
     {
         if (n % 2 === 0)

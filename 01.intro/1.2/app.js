@@ -1,6 +1,6 @@
 (() => {
-    let name = "Noël";
-    let firstname = "Isabelle";
-    let city = "Peruwelz";
-    console.log(`My name is ${firstname} ${name} and I live in ${city}`);
+    let name = "Monkey D.";
+    let firstname = "Luffy";
+    let city = "Fresia village";
+    console.log(`My name is ${name} ${firstname} and I live in ${city}`);
 })();

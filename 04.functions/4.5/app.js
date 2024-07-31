@@ -5,7 +5,7 @@
 })();
 /**function that generate the distance between two point by their coordinate in 2D */
 function calcDistance (A, B){
-    let distance = (A[0]-B[0])*(A[1]-B[1])
+    let distance = Math.sqrt((A[0]-B[0])*(A[0]-B[0])+(A[1]-B[1])*(A[1]-B[1]))
 
-    return distance >= 0 ? distance : distance * (-1)
+    return distance 
 }
